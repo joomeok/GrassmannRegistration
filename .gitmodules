@@ -1,0 +1,3 @@
+[submodule "3rdparty/pmc"]
+	path = 3rdparty/pmc
+	url = https://github.com/ryanrossi/pmc

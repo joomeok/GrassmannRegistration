@@ -1,0 +1,37 @@
+# Smallest translation value along dimension X of translation cube
+transMinX=-10
+# Smallest translation value along dimension Y of translation cube
+transMinY=-10
+# Smallest translation value along dimension Z of translation cube
+transMinZ=-10
+# Side length of each dimension of translation cube
+transWidth=20
+
+# Smallest rotation value along dimension X of rotation cube (radians)
+#rotMinX=-0.3927
+# Smallest rotation value along dimension Y of rotation cube (radians)
+#rotMinY=-0.3927
+# Smallest rotation value along dimension Z of rotation cube (radians)
+#rotMinZ=-0.3927
+# Side length of each dimension of rotation cube (radians)
+#rotWidth=0.7854
+
+# Smallest rotation value along dimension X of rotation cube (radians)
+rotMinX=-3.1416
+# Smallest rotation value along dimension Y of rotation cube (radians)
+rotMinY=-3.1416
+# Smallest rotation value along dimension Z of rotation cube (radians)
+rotMinZ=-3.1416
+# Side length of each dimension of rotation cube (radians)
+rotWidth=6.2832
+
+# Exp3 : 0.08
+# RMSE 0.008 default
+# Plane regist default = 0.005
+RotationMSEThresh=0.005
+# TMSE 0.005 default
+# 0.0095 for board pose
+TranslationMSEThresh=0.005
+# 0.008 for synthetic data
+# 0.00015 -> Line-Plane 
+# 0.0015 -> Line-Line, Plane-Plane
