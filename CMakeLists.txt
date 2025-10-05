@@ -36,7 +36,7 @@ add_library(libpmc SHARED
     3rdparty/pmc/pmc_lib.cpp
 )
 
-add_executable(GoICL
+add_executable(GoL2L
     src/l2l_main.cpp
     src/l2l.cpp
     src/line_fitting.cpp
@@ -74,7 +74,7 @@ add_executable(Refinement
     src/refinement.cpp
 )
 
-target_link_libraries(GoICL libpmc ${CERES_LIBRARIES} Eigen3::Eigen)
+target_link_libraries(GoL2L libpmc ${CERES_LIBRARIES} Eigen3::Eigen)
 target_link_libraries(GoL2P ${CERES_LIBRARIES} Eigen3::Eigen)
 target_link_libraries(GoP2P ${CERES_LIBRARIES} Eigen3::Eigen)
 target_link_libraries(Refinement ${CERES_LIBRARIES} Eigen3::Eigen)
