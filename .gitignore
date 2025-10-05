@@ -9,12 +9,10 @@ output_0.01.txt
 output_0.03.txt
 output_0.05.txt
 
-# 빌드 폴더
 build/
 CMakeFiles/
 cmake-build-*/
 
-# 바이너리 & 라이브러리
 *.o
 *.a
 *.so
@@ -22,21 +20,17 @@ cmake-build-*/
 *.exe
 *.out
 
-# 실행 파일
 GoICL
 GoL2P
 GoP2P
 Refinement
 
-# 임시/백업파일
 *~
 *.swp
 
-# IDE/에디터 관련
 .vscode/
 .idea/
 
-# 올리고 싶지 않은 특정 파일
 model_0.01.txt
 output.txt
 result
